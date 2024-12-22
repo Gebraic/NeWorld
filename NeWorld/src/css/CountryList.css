@@ -1,0 +1,35 @@
+.CountryList-Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Country-List {
+    padding: 20px;
+    text-decoration: none;
+    border: 2px solid #F1F0E8;
+    border-radius: 40px;
+    box-shadow: 0px 1px 20px #f1f0e8cb,
+                0px -1px 20px #f1f0e8cb,
+                1px 0px 20px #f1f0e8cb,
+                -1px 0px 20px #f1f0e8cb;
+    width: 300px;
+    height: 300px;
+    background-color: #B3C8CF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.Country-List h3 {
+    padding: 10px 0 0 0;
+}
+
+.CountryList-Link {
+    text-decoration: none;
+    color: black;
+}
